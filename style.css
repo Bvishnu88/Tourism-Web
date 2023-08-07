@@ -1,0 +1,85 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'poppins', sans-serif;
+    
+}
+.navbar{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(240, 246, 249);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #021323;
+
+}
+.Menu ul{
+    display:flex;
+    align-items:center
+}
+.Menu ul li a{
+    text-decoration: none;
+    padding: 10px 12px;
+    letter-spacing: 2px;
+    font-size: 10 px;
+
+}
+.Menu ul li a:hover{
+    border-bottom: 4px solid #28e34a;
+    transition: 0s;
+}
+.signup a{
+    text-decoration: none;
+    color: #021323;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 12px 30px;
+    border: 2px solid #1003c5;
+}
+.signup a:hover{
+    background-color: #28e34a
+   
+}
+.body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Tourist p{
+    border-radius: 12px;
+    padding: 12px 30px;
+    border: 2px solid #1003c5;
+    background-color:whitesmoke;
+}
+.Tourist p:hover{
+    cursor: pointer;
+    background-color: #28e34a;
+
+}
+.heading a{
+    border-radius: 12px;
+    padding: 12px 30px;
+    border: 2px solid #1003c5;
+    background-color:whitesmoke;
+
+}
+.heading a:hover{
+    cursor: pointer;
+    background-color: #28e34a;
+
+}
+
+
+    
+
+
